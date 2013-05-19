@@ -166,3 +166,12 @@ let g:ctrlp_custom_ignore = {
     \ }
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/toolchain/*
+
+" MiniBufExpl Colors
+hi MBEVisibleActive guifg=#A6DB29 guibg=fg
+hi MBEVisibleChangedActive guifg=#F1266F guibg=fg
+hi MBEVisibleChanged guifg=#F1266F guibg=fg
+hi MBEVisibleNormal guifg=#5DC2D6 guibg=fg
+hi MBEChanged guifg=#CD5907 guibg=fg
+hi MBENormal guifg=#808080 guibg=fg
+let g:miniBufExplMapCTabSwitchBufs=1
